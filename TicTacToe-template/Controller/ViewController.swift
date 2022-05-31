@@ -1,7 +1,9 @@
 //
 //  ViewController.swift
 //  TicTacToe-template
-//
+
+// Had to use your template for assignment because i ran out of Apple bundles to create new projects
+
 //  Created by Mohammad Kiani on 2020-06-08.
 //  Copyright © 2020 mohammadkiani. All rights reserved.
 //
