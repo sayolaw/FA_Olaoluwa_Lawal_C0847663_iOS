@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Board" representedClassName="Board" syncable="YES" codeGenerationType="class">
+        <attribute name="crossMoves" optional="YES" attributeType="String" valueTransformerName="" customClassName="[String]"/>
+        <attribute name="crossScore" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="gameState" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastMoveTag" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="noughtMoves" optional="YES" attributeType="String" customClassName="[String]"/>
+        <attribute name="noughtScore" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="turn" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CrossMoves" representedClassName="CrossMoves" syncable="YES" codeGenerationType="class">
+        <attribute name="move" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Board" positionX="-63" positionY="-18" width="128" height="134"/>
+        <element name="CrossMoves" positionX="-63" positionY="36" width="128" height="44"/>
+    </elements>
+</model>
